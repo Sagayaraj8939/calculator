@@ -139,7 +139,7 @@ function reducer(state, { type, payload }) {
     case ACTIONS.EVALUATE:
       if (
         (state.currentOperand != null || state.currentOperand !== undefined) &&
-        (state.previousOperand != null || state.currentOperand !== undefined)
+        (state.previousOperand != null || state.previousOperand !== undefined)
       ) {
         return {
           ...state,
